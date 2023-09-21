@@ -11,7 +11,7 @@ function populateYear() {
 }
 
 function lastModified() {
-  const recentModification = `Last Modified -- 9/19/2023 -- 9:30p.m`;
+  const recentModification = `Last Modified -- 9/21/2023 -- 9:30p.m`;
 
   let lastModified = document.getElementById("last_modified");
 
