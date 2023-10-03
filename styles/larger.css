@@ -24,6 +24,10 @@
     background-color: black;
   }
 
+  li:hover {
+    background-color: #3e4756;
+  }
+
   /* classes */
 
   .grid-container {
