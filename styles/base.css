@@ -22,7 +22,9 @@ nav ul {
 nav a {
   display: block;
   text-align: center;
+  text-decoration: none;
 }
+
 body {
   background-color: black;
 }
