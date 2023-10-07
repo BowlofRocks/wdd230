@@ -23,12 +23,11 @@ nav a {
   display: block;
   text-align: center;
   text-decoration: none;
-}
-
-h1 {
   color: #000000;
-  font-size: 50px;
-  font-family: "Montserrat", sans-serif;
+}
+nav li {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -36,9 +35,30 @@ body {
   background-color: white;
 }
 
-body h2,
-h3 {
+header h1 {
   color: #000000;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+section h3,
+p {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+footer span {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+main h2 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 /* classes */

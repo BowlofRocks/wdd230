@@ -16,16 +16,50 @@
     list-style-type: none;
     padding-left: 0;
   }
+
+  li:hover {
+    background-color: #3e4756;
+  }
+
   nav a {
     display: block;
     text-align: center;
   }
-  body {
-    background-color: black;
+
+  nav li {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
   }
 
-  li:hover {
-    background-color: #3e4756;
+  body {
+    background-color: white;
+  }
+
+  header h1 {
+    color: #000000;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  section h3,
+  p {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  footer span {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  main h2 {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
   }
 
   /* classes */
