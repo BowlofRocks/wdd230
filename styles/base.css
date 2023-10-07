@@ -25,8 +25,20 @@ nav a {
   text-decoration: none;
 }
 
+h1 {
+  color: #000000;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
 body {
-  background-color: black;
+  background-color: white;
+}
+
+body h2,
+h3 {
+  color: #000000;
 }
 
 /* classes */
@@ -66,11 +78,6 @@ body {
   text-align: center;
 }
 
-.title_color {
-  color: #d8e0ec;
-  font-family: "Montserrat", sans-serif;
-}
-
 .title {
   color: #d8e0ec;
   font-size: 50px;
@@ -86,13 +93,12 @@ body {
 }
 
 .light-mode {
-  background-color: #eee;
+  background-color: #000000;
 }
 
-.light-mode h1,
-h2,
+.light-mode h2,
 h3 {
-  color: #000000;
+  color: #d8e0ec;
 }
 
 /* IDs */
