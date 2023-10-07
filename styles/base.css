@@ -85,4 +85,14 @@ body {
   border-top-color: #59544b;
 }
 
+.light-mode {
+  background-color: #eee;
+}
+
+.light-mode h1,
+h2,
+h3 {
+  color: #000000;
+}
+
 /* IDs */
