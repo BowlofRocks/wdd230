@@ -21,8 +21,8 @@ function displayList(item) {
   let liElement = document.createElement("li");
   let deleteButton = document.createElement("button");
   liElement.textContent = item;
-  deletebutton.textContent = "❌";
-  deletebutton.classList.add("delete");
+  deleteButton.textContent = "❌";
+  deleteButton.classList.add("delete");
 
   liElement.append(deleteButton);
 
