@@ -45,7 +45,15 @@
     color: var(--accent1-color);
   }
 
+  main {
+    background-color: var(--secondary-color);
+  }
+
   /* Classes */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+  }
 
   .flex-container {
     display: flex;
@@ -86,6 +94,29 @@
   }
 
   /* Ids */
+  #county-fair {
+    grid-column: 2;
+  }
+
+  #fireworks {
+    grid-column: 2;
+  }
+
+  #old-car {
+    grid-column: 2;
+  }
+
+  #landscape {
+    grid-column: 2;
+  }
+
+  #equestrian-girl {
+    grid-column: 2;
+  }
+
+  #silly-guy {
+    grid-column: 2;
+  }
 
   #discover {
     order: 1;
@@ -97,6 +128,7 @@
     color: var(--accent1-color);
     padding-top: 10px;
     text-decoration: underline;
+    grid-column: 2;
   }
 
   #weather-subtext {
