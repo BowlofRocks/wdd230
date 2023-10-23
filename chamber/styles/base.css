@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@100&display=swap");
+
+:root {
+  --primpary-color: #ffffff;
+  --secondary-color: #343233;
+  --accent1-color: #d7d1c3;
+  --accent2-color: #0f75bc;
+
+  --heading-font: "Bebas Neue", sans-serif;
+  --paragraph-font: "Libre Franklin", sans-serif;
+}
+
+nav {
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  /* padding: auto; */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--accent1-color);
+  font-family: var(--heading-font);
+}
+
+div img {
+  width: 1000px;
+  height: 500px;
+  padding: 5px;
+}
+
+/* img {
+  width: 100%;
+  height: auto;
+} */
+
+button {
+  position: absolute;
+  top: 55%;
+  left: 100px;
+  z-index: 1;
+}
+
+main {
+  position: absolute;
+  top: 75%;
+  left: 0;
+}
+
+section img {
+  padding-bottom: 20px;
+}
+
+section p {
+  font-family: var(--paragraph-font);
+  color: var(--accent1-color);
+}
+
+/* Classes */
+.hero {
+  position: absolute;
+  top: 34.1%;
+  left: 0px;
+}
+
+.card {
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+.paragraph {
+  color: var(--accent1-color);
+  font-family: var(--paragraph-font);
+}
+
+sun-icon {
+  width: 80px;
+  height: 40px;
+}
+
+/* Ids */
+
+#discover-subtext {
+  font-family: var(--heading-font);
+  font-size: 30px;
+  color: var(--accent1-color);
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+#weather-subtext {
+  font-family: var(--heading-font);
+  font-size: 30px;
+  color: var(--accent1-color);
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+#weather-today {
+  font-family: var(--heading-font);
+  font-size: 15px;
+  color: var(--accent1-color);
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+#spotlights-subtext {
+  font-size: 30px;
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  padding-top: 10px;
+  text-decoration: underline;
+}

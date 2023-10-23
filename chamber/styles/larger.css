@@ -1,2 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@100&display=swap");
+
 @media only screen and (min-width: 400px) {
+  :root {
+    --primpary-color: #ffffff;
+    --secondary-color: #343233;
+    --accent1-color: #d7d1c3;
+    --accent2-color: #0f75bc;
+
+    --heading-font: "Bebas Neue", sans-serif;
+    --paragraph-font: "Libre Franklin", sans-serif;
+  }
+
+  nav {
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    /* padding: auto; */
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    text-align: center;
+    margin: 20px;
+    padding-left: 123px;
+  }
+
+  nav a {
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+  }
+
+  section img {
+    padding-bottom: 20px;
+  }
+
+  section p {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+  }
+
+  /* Classes */
+
+  .flex-container {
+    display: flex;
+  }
+
+  .home {
+    order: 0;
+  }
+
+  .directory {
+    order: 2;
+  }
+
+  .contact-us {
+    order: 3;
+  }
+
+  .hero {
+    position: absolute;
+    top: 10%;
+    width: 50px;
+    left: 45px;
+  }
+
+  .card {
+    text-align: center;
+    background-color: var(--secondary-color);
+  }
+
+  .paragraph {
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+  }
+
+  sun-icon {
+    width: 80px;
+    height: 40px;
+  }
+
+  /* Ids */
+
+  #discover {
+    order: 1;
+  }
+
+  #discover-subtext {
+    font-family: var(--heading-font);
+    font-size: 30px;
+    color: var(--accent1-color);
+    padding-top: 10px;
+    text-decoration: underline;
+  }
+
+  #weather-subtext {
+    font-family: var(--heading-font);
+    font-size: 30px;
+    color: var(--accent1-color);
+    padding-top: 10px;
+    text-decoration: underline;
+  }
+
+  #weather-today {
+    font-family: var(--heading-font);
+    font-size: 15px;
+    color: var(--accent1-color);
+    padding-top: 10px;
+    text-decoration: underline;
+  }
+
+  #spotlights-subtext {
+    font-size: 30px;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    padding-top: 10px;
+    text-decoration: underline;
+  }
 }

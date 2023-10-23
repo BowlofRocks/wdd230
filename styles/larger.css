@@ -1,6 +1,5 @@
 @media only screen and (min-width: 400px) {
   img {
-    max-width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +47,10 @@
     color: #000000;
     font-family: "Poppins", sans-serif;
     text-align: center;
+  }
+
+  section img {
+    max-width: 200px;
   }
 
   footer span {
@@ -118,6 +121,25 @@
   .about_card {
     border-bottom: solid;
     border-bottom-color: #59544b;
+  }
+
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero h1 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    top: 30%;
+    left: 10px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 500px;
   }
 
   /* IDs */
