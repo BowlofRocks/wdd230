@@ -46,19 +46,6 @@ div img {
   height: auto;
 } */
 
-button {
-  position: absolute;
-  top: 55%;
-  left: 100px;
-  z-index: 1;
-}
-
-main {
-  position: absolute;
-  top: 75%;
-  left: 0;
-}
-
 section img {
   padding-bottom: 20px;
 }

@@ -1,7 +1,7 @@
 let numVisits = 1;
 
 if (localStorage.getItem("numVisits")) {
-  numVisits = parseInt(localStorage.getItem("NumVisits"));
+  numVisits = parseInt(localStorage.getItem("numVisits"));
   numVisits++;
 }
 
