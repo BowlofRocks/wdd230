@@ -47,12 +47,18 @@
 
   main {
     background-color: var(--secondary-color);
+    margin-right: 0;
+  }
+
+  picture {
+    padding: 0;
+    margin: 0;
   }
 
   /* Classes */
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr;
   }
 
   .flex-container {
@@ -61,6 +67,7 @@
 
   .home {
     order: 0;
+    padding-left: 70%;
   }
 
   .directory {
@@ -71,16 +78,23 @@
     order: 3;
   }
 
-  .hero {
-    position: absolute;
-    top: 10%;
-    width: 50px;
-    left: 45px;
-  }
-
   .card {
     text-align: center;
     background-color: var(--secondary-color);
+  }
+
+  .weather-card {
+    text-align: center;
+    background-color: var(--secondary-color);
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .spotlights-card {
+    text-align: center;
+    background-color: var(--secondary-color);
+    grid-column: 1;
+    grid-row: 3;
   }
 
   .paragraph {
@@ -94,7 +108,7 @@
   }
 
   /* Ids */
-  #county-fair {
+  #country-fair {
     grid-column: 2;
   }
 
@@ -127,8 +141,9 @@
     font-size: 30px;
     color: var(--accent1-color);
     padding-top: 10px;
+    padding-left: 47%;
     text-decoration: underline;
-    grid-column: 2;
+    grid-column: 1 / span 2;
   }
 
   #weather-subtext {
