@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@100&display=swap");
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+nav {
+  font-size: 30px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav li {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+header h1 {
+  color: #000000;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+section h3,
+p {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+section img {
+  max-width: 200px;
+}
+
+footer span {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+main h2 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #d8e0ec;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+fieldset label {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+form label {
+  display: block;
+  padding: 0.85rem 0;
+}
+
+form label input:required {
+  border-left: red solid 6px;
+}
+
+form label input:required:valid {
+  border-left: green solid 6px;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #d8e0ec;
+  color: #000000;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+/* classes */
+.home {
+  color: #d8e0ec;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.chamber {
+  color: #d8e0ec;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.site-plan {
+  color: #d8e0ec;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.form {
+  color: #d8e0ec;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.subtext {
+  color: #d8e0ec;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.text-color {
+  color: #d8e0ec;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.title {
+  color: #d8e0ec;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.about_card {
+  border-top: solid;
+  border-bottom: solid;
+  border-bottom-color: #59544b;
+  border-top-color: #59544b;
+}
+
+.information-card {
+  border-top: solid;
+  border-bottom: solid;
+  border-bottom-color: #59544b;
+  border-top-color: #59544b;
+}
+
+.light-mode {
+  background-color: #000000;
+}
+
+.light-mode h2,
+h3 {
+  color: #d8e0ec;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  top: 65%;
+  left: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+/* IDs */
