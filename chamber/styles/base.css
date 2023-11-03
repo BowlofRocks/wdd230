@@ -10,103 +10,90 @@
   --paragraph-font: "Libre Franklin", sans-serif;
 }
 
-nav {
+body {
+  width: 400px;
+  max-width: 400px;
+}
+
+main {
   background-color: var(--secondary-color);
-  font-size: 20px;
-  /* padding: auto; */
-  margin: 0;
-  padding: 0;
+  padding-bottom: 1rem;
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  text-align: center;
-  margin: 0;
   padding: 0;
 }
 
 nav a {
   color: var(--accent1-color);
   font-family: var(--heading-font);
+  font-size: 1.5rem;
 }
 
-div img {
-  width: 1000px;
-  height: 500px;
-  padding: 5px;
+nav li {
+  list-style-type: none;
+  text-align: center;
+  margin: 1em;
 }
 
-/* img {
-  width: 100%;
-  height: auto;
-} */
+nav {
+  background-color: var(--secondary-color);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
 
-section img {
-  padding-bottom: 20px;
+section {
+  border: 5px solid #0f75bc;
+  margin-bottom: 0.5rem;
+}
+
+section h1 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  text-align: center;
+}
+
+section h2,
+h3 {
+  font-family: var(--paragraph-font);
+  color: var(--accent1-color);
+  text-align: center;
+}
+
+section h2 {
+  text-decoration: underline;
 }
 
 section p {
   font-family: var(--paragraph-font);
   color: var(--accent1-color);
-}
-
-/* Classes */
-.hero {
-  position: absolute;
-  top: 34.1%;
-  left: 0px;
-}
-
-.card {
   text-align: center;
+}
+
+.img-border {
+  border: 5px solid #0f75bc;
+  width: 390px;
+  max-width: 1000px;
+}
+
+main h1 {
+  color: var(--accent1-color);
+  text-align: center;
+  font-family: var(--heading-font);
+  text-decoration: underline;
+}
+
+footer {
   background-color: var(--secondary-color);
 }
 
-.paragraph {
+footer span {
   color: var(--accent1-color);
   font-family: var(--paragraph-font);
 }
 
-sun-icon {
-  width: 80px;
-  height: 40px;
-}
-
-/* Ids */
-
-#discover-subtext {
-  font-family: var(--heading-font);
-  font-size: 30px;
-  color: var(--accent1-color);
-  padding-top: 10px;
-  text-decoration: underline;
-}
-
-#weather-subtext {
-  font-family: var(--heading-font);
-  font-size: 30px;
-  color: var(--accent1-color);
-  padding-top: 10px;
-  text-decoration: underline;
-}
-
-#weather-today {
-  font-family: var(--heading-font);
-  font-size: 15px;
-  color: var(--accent1-color);
-  padding-top: 10px;
-  text-decoration: underline;
-}
-
-#spotlights-subtext {
-  font-size: 30px;
-  font-family: var(--heading-font);
-  color: var(--accent1-color);
-  padding-top: 10px;
-  text-decoration: underline;
+#join {
+  position: absolute;
+  top: 90%;
+  left: 6rem;
 }

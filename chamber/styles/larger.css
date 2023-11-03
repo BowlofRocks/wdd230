@@ -11,171 +11,91 @@
     --paragraph-font: "Libre Franklin", sans-serif;
   }
 
-  nav {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  main {
     background-color: var(--secondary-color);
-    font-size: 20px;
-    /* padding: auto; */
-    margin: 0;
-    padding: 0;
+    padding-bottom: 1rem;
   }
 
   nav ul {
-    list-style-type: none;
     padding: 0;
-    margin: 0;
-  }
-
-  nav li {
-    text-align: center;
-    margin: 20px;
-    padding-left: 13.5%;
   }
 
   nav a {
     color: var(--accent1-color);
     font-family: var(--heading-font);
+    font-size: 1.5rem;
   }
 
-  section img {
-    padding-bottom: 20px;
+  nav li {
+    list-style-type: none;
+    text-align: center;
+    margin: 1em;
+  }
+
+  nav {
+    background-color: var(--secondary-color);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  section {
+    border: 5px solid #0f75bc;
+    margin-bottom: 0.5rem;
+  }
+
+  section h1 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-align: center;
+  }
+
+  section h2,
+  h3 {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    text-align: center;
+  }
+
+  section h2 {
+    text-decoration: underline;
   }
 
   section p {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
-  }
-
-  main {
-    background-color: var(--secondary-color);
-    margin-right: 0;
-  }
-
-  picture {
-    padding: 0;
-    margin: 0;
-  }
-
-  button {
-    position: absolute;
-    z-index: 1;
-  }
-
-  /* Classes */
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-  }
-
-  .flex-container {
-    display: flex;
-  }
-
-  .home {
-    order: 0;
-  }
-
-  .directory {
-    order: 2;
-  }
-
-  .contact-us {
-    order: 3;
-  }
-
-  .card {
     text-align: center;
-    background-color: var(--secondary-color);
   }
 
-  .weather-card {
+  .img-border {
+    border: 5px solid #0f75bc;
+    width: 390px;
+    max-width: 1000px;
+  }
+
+  main h1 {
+    color: var(--accent1-color);
     text-align: center;
-    background-color: var(--secondary-color);
-    grid-column: 1;
-    grid-row: 2;
+    font-family: var(--heading-font);
+    text-decoration: underline;
   }
 
-  .spotlights-card {
-    text-align: center;
+  footer {
     background-color: var(--secondary-color);
-    grid-column: 1;
-    grid-row: 3;
   }
 
-  .paragraph {
+  footer span {
     color: var(--accent1-color);
     font-family: var(--paragraph-font);
   }
 
-  sun-icon {
-    width: 80px;
-    height: 40px;
-  }
-  /* Ids */
-
-  #hero-img {
-    grid: 1 / span 2;
-  }
-
-  #country-fair {
-    grid-column: 2;
-  }
-
-  #fireworks {
-    grid-column: 2;
-  }
-
-  #old-car {
-    grid-column: 2;
-  }
-
-  #landscape {
-    grid-column: 2;
-  }
-
-  #equestrian-girl {
-    grid-column: 2;
-  }
-
-  #silly-guy {
-    grid-column: 2;
-  }
-
-  #discover {
-    order: 1;
-  }
-
-  #discover-subtext {
-    font-family: var(--heading-font);
-    font-size: 30px;
-    color: var(--accent1-color);
-    padding-top: 10px;
-    padding-left: 47%;
-    text-decoration: underline;
-    grid-column: span 2;
-    grid-row: 2;
-  }
-
-  #weather-subtext {
-    font-family: var(--heading-font);
-    font-size: 30px;
-    color: var(--accent1-color);
-    padding-top: 10px;
-    text-decoration: underline;
-  }
-
-  #weather-today {
-    font-family: var(--heading-font);
-    font-size: 15px;
-    color: var(--accent1-color);
-    padding-top: 10px;
-    text-decoration: underline;
-  }
-
-  #spotlights-subtext {
-    font-size: 30px;
-    font-family: var(--heading-font);
-    color: var(--accent1-color);
-    padding-top: 10px;
-    text-decoration: underline;
+  #join {
+    position: absolute;
+    top: 90%;
+    left: 6rem;
   }
 }
