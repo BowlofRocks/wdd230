@@ -1,98 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/larger.css">
-    <link rel="stylesheet" href="./styles/normalize.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover Page</title>
+    <meta name="author" content="Paul Amago" />
+    <meta name="description" content="Chamber Discover Page" />
+    <meta name="purpose" content="course project" />
+    <meta
+      property="og:url"
+      content="http://www.baudettechamberofcommerce.com"
+    />
+    <meta property="og:type" content="project" />
+    <meta
+      property="og:image"
+      content="https://www.facebook.com/photo/?fbid=603255331946270&set=a.603255325279604"
+    />
+    <meta property="og:title" content="Baudette Chamber of Commerce" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/larger.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+  </head>
+  <body>
     <header>
-        <!-- <h1>Baudette Chamber of Commerce</h1> -->
-        <picture>
-            <img src="./images/chamberlogo_black.webp" alt="chamber logo">
-        </picture>
+      <!-- <h1>Baudette Chamber of Commerce</h1> -->
+      <picture>
+        <img
+          src="./images/chamberlogo_black.webp"
+          loading="lazy"
+          alt="chamber logo"
+        />
+      </picture>
     </header>
 
     <nav>
-        <button id="menu">☰</button>
-        <ul>
-            <li><a href="*">Home</a></li>
-            <li><a href="*">Discover</a></li>
-            <li><a href="*">Directory</a></li>
-            <li><a href="*">Contact Us</a></li>
-        </ul>
+      <button id="menu">☰</button>
+      <ul id="flex-container">
+        <li><a href="*">Home</a></li>
+        <li><a href="*">Discover</a></li>
+        <li><a href="*">Directory</a></li>
+        <li><a href="*">Contact Us</a></li>
+      </ul>
     </nav>
 
     <main>
-        <picture>
-            <source srcset="images/hero-small.webp" media="(max-width: 400px)">
-            <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
-            <img class="img-border" src="images/hero.avif" alt="hero">
-        </picture>
-        <button id="join">Beocome A Member Today!</button>
+      <picture>
+        <source srcset="images/hero-small.webp" media="(max-width: 400px)" />
+        <source srcset="images/hero-medium.webp" media="(max-width: 960px)" />
+        <img
+          class="img-border"
+          src="images/hero.avif"
+          loading="lazy"
+          alt="hero"
+        />
+      </picture>
+      <button id="join">Become A Member Today!</button>
 
-        <h1>Discover</h1>
-        <picture>
-            <source srcset="images/fireworks-small.webp" media="(max-width: 400px)">
-            <source srcset="images/fireworks-medium.webp" media="(max-width: 960px)">
-            <img class="img-border" src="images/fireworks.webp" alt="fireworks">
-        </picture>
+      <h1>Discover</h1>
 
-        <picture>
-            <source srcset="images/equestrian-girl-small.webp" media="(max-width: 400px)">
-            <source srcset="images/equestrian-girl-medium.webp" media="(max-width: 960px)">
-            <img class="img-border" src="images/equestrian-girl.webp" alt="horse girl">
-        </picture>
-
-        <picture>
-            <source srcset="images/old-car-small.webp" media="(max-width: 400px)">
-            <source srcset="images/old-car-medium.webp" media="(max-width: 960px)">
-            <img class="img-border" src="images/old-car.webp" alt="horse girl">
-        </picture>
-
-        <picture>
-            <source srcset="images/silly-guy-small.webp" media="(max-width: 400px)">
-            <source srcset="images/silly-guy.webp" media="(max-width: 960px)">
-            <img class="img-border" src="images/silly-guy.webp" alt="silly guy">
-        </picture>
-
-        <picture>
-            <source srcset="images/country-fair.webp" media="(max-width: 400px)">
-            <source srcset="images/country-fair.webp" media="(max-width: 960px)">
-            <img class="img-border" src="images/country-fair.webp" alt="fair">
-        </picture>
-
-        <picture>
-            <source srcset="images/border-bandstand-small.webp" media="(max-width: 400px)">
-            <source srcset="images/border-bandstand-medium.webp" media="(max-width: 960px)">
-            <img class="img-border" src="images/border-bandstand.webp" alt="bandstand">
-        </picture>
-
-        <section>
-            <h1>Weather</h1>
-            <h2>Today's Weather:</h2>
-            <h3>Sunny</h3>
+      <div id="grid-container">
+        <section id="weather-card">
+          <h1>Weather</h1>
+          <h2>Today's Weather:</h2>
+          <h3>Sunny</h3>
         </section>
 
-        <section>
-            <h1>Spotlights & Advertisements</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Non, tempora perspiciatis pariatur voluptatem fugiat molestiae veniam odio voluptas excepturi, nam recusandae deserunt vitae voluptatum adipisci optio aliquam dolores repellat. 
-                A.</p>
+        <section id="spotlights-card">
+          <h1>Spotlights & Advertisements</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+            tempora perspiciatis pariatur voluptatem fugiat molestiae veniam
+            odio voluptas excepturi, nam recusandae deserunt vitae voluptatum
+            adipisci optio aliquam dolores repellat. A.
+          </p>
         </section>
 
+        <section id="messages-card">
+          <h1>Messages!</h1>
+          <p><span id="visitor-message"> </span></p>
+        </section>
+
+        <picture id="fireworks">
+          <source
+            srcset="images/fireworks-small.webp"
+            media="(max-width: 400px)"
+          />
+          <source
+            srcset="images/fireworks-medium.webp"
+            media="(max-width: 960px)"
+          />
+          <img
+            class="img-border"
+            src="images/fireworks.webp"
+            loading="lazy"
+            alt="fireworks"
+          />
+        </picture>
+
+        <picture id="equestrian-girl">
+          <source
+            srcset="images/equestrian-girl-small.webp"
+            media="(max-width: 400px)"
+          />
+          <source
+            srcset="images/equestrian-girl-medium.webp"
+            media="(max-width: 960px)"
+          />
+          <img
+            class="img-border"
+            src="images/equestrian-girl.webp"
+            loading="lazy"
+            alt="horse girl"
+          />
+        </picture>
+
+        <picture id="old-car">
+          <source
+            srcset="images/old-car-small.webp"
+            media="(max-width: 400px)"
+          />
+          <source
+            srcset="images/old-car-medium.webp"
+            media="(max-width: 960px)"
+          />
+          <img
+            class="img-border"
+            src="images/old-car.webp"
+            loading="lazy"
+            alt="horse girl"
+          />
+        </picture>
+
+        <picture id="silly-guy">
+          <source
+            srcset="images/silly-guy-small.webp"
+            media="(max-width: 400px)"
+          />
+          <source srcset="images/silly-guy.webp" media="(max-width: 960px)" />
+          <img
+            class="img-border"
+            src="images/silly-guy.webp"
+            loading="lazy"
+            alt="silly guy"
+          />
+        </picture>
+
+        <picture id="country-fair">
+          <source
+            srcset="images/country-fair.webp"
+            media="(max-width: 400px)"
+          />
+          <source
+            srcset="images/country-fair.webp"
+            media="(max-width: 960px)"
+          />
+          <img
+            class="img-border"
+            src="images/country-fair.webp"
+            loading="lazy"
+            alt="fair"
+          />
+        </picture>
+
+        <picture id="border-bandstand">
+          <source
+            srcset="images/border-bandstand-small.webp"
+            media="(max-width: 400px)"
+          />
+          <source
+            srcset="images/border-bandstand-medium.webp"
+            media="(max-width: 960px)"
+          />
+          <img
+            class="img-border"
+            src="images/border-bandstand.webp"
+            loading="lazy"
+            alt="bandstand"
+          />
+        </picture>
+      </div>
     </main>
 
     <footer>
-        <span id="year"></span>
-        <p></p>
-        <span id="last_modified"></span>
+      <span id="year"></span>
+      <p></p>
+      <span id="last_modified"></span>
     </footer>
-    
+
     <script src="scripts/getDates.js"></script>
     <script src="./scripts/hamburger.js"></script>
-</body>
+    <script src="./scripts/visitorCounter.js"></script>
+  </body>
 </html>

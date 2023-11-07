@@ -1,0 +1,20 @@
+{
+    "lastName": "Amago",
+    "dateMovedIn": "2023-10-07",
+    "numberOfpeopleInFmaily": "5",
+    "visitedByBishopric": false,
+    "familyMembers": [
+        {
+        "name": "Billy",
+        "gender": "Male",
+        "birthDate": "1967-09-01"
+        },
+        {
+        "name": "Austin",
+        "gender": "Male",
+        "birthDate": "1999-09-01"
+        }
+
+    ]
+
+}
