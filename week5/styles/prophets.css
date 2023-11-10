@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --font: "Montserrat", sans-serif;
+}
+
+section {
+  background-color: beige;
+  border: 5px solid black;
+  text-align: center;
+  border-spacing: 10px;
+  margin-top: 10px;
+  font-family: var(--font);
+}
+
+h1 {
+  background-color: beige;
+  border: 5px solid black;
+  text-align: center;
+  font-family: var(--font);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
