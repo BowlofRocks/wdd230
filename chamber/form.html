@@ -1,71 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discover Page</title>
-    <meta name="author" content="Paul Amago">
-    <meta name="description" content="Chamber Discover Page">
-    <meta name="purpose" content="course project">
-    <meta property="og:url" content="http://www.baudettechamberofcommerce.com">
-    <meta property="og:type" content="project">
-    <meta property="og:image" content="https://www.facebook.com/photo/?fbid=603255331946270&set=a.603255325279604">
-    <meta property="og:title" content="Baudette Chamber of Commerce">
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/larger.css">
-    <link rel="stylesheet" href="./styles/normalize.css">
-</head>
-<body>
+    <meta name="author" content="Paul Amago" />
+    <meta name="description" content="Chamber Discover Page" />
+    <meta name="purpose" content="course project" />
+    <meta
+      property="og:url"
+      content="http://www.baudettechamberofcommerce.com"
+    />
+    <meta property="og:type" content="project" />
+    <meta
+      property="og:image"
+      content="https://www.facebook.com/photo/?fbid=603255331946270&set=a.603255325279604"
+    />
+    <meta property="og:title" content="Baudette Chamber of Commerce" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/larger.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+  </head>
+  <body>
     <header>
-        <!-- <h1>Baudette Chamber of Commerce</h1> -->
-        <picture>
-            <img src="./images/chamberlogo_black.webp" loading="lazy" alt="chamber logo">
-        </picture>
+      <!-- <h1>Baudette Chamber of Commerce</h1> -->
+      <picture>
+        <img
+          src="./images/chamberlogo_black.webp"
+          loading="lazy"
+          alt="chamber logo"
+        />
+      </picture>
     </header>
 
     <nav>
-        <button id="menu">☰</button>
-        <ul id="flex-container">
-            <li><a href="*">Home</a></li>
-            <li><a href="*">Discover</a></li>
-            <li><a href="*">Directory</a></li>
-            <li><a href="*">Contact Us</a></li>
-        </ul>
+      <button id="menu">☰</button>
+      <ul id="flex-container">
+        <li><a href="*">Home</a></li>
+        <li><a href="*">Discover</a></li>
+        <li><a href="*">Directory</a></li>
+        <li><a href="*">Contact Us</a></li>
+      </ul>
     </nav>
 
     <main>
-        <h1 class="title">Become a Member Today!</h1>
-        <form method="get" action="/thanks.html">
-            <fieldset>
-                <legend class="subtext">Please Put In Your Info </legend>
-                <label id="fname" > First Name*<input type="text" name="fname" required></label>
-                <label id="lname" > last Name*<input type="text" name="lname" required></label>
-                <label id="pword" > Title/Position<input type="text" name="id" pattern="[a-zA-Z0-9]" maxlength="8" required  ></label>
-                <label id="email" > Please enter a valid emial adress*<input type="email" name="email" placeholder="someone@gmail.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
-            </fieldset>
-            <fieldset>
-                <legend class="subtext">Please Rate This Page</legend>
-                <div>
-                    <input type="range" id="rate-me" name="rate" min="1" max="10" />
-                </div>
-                
+      <h1 class="title">Become a Member Today!</h1>
+      <form method="get" action="/thanks.html">
+        <fieldset>
+          <legend class="subtext">Please Put In Your Info</legend>
+          <label id="fname">
+            First Name*<input type="text" name="fname" required
+          /></label>
+          <label id="lname">
+            last Name*<input type="text" name="lname" required
+          /></label>
+          <label id="position">
+            Title/Position<input
+              type="text"
+              name="position"
+              pattern="[a-zA-Z._%+- ]"
+              maxlength="7"
+          /></label>
+          <label id="email">
+            Please enter a valid emial adress*<input
+              type="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              pattern="[a-zA-Z0-9._%+-]"
+              required
+          /></label>
+          <label id="phone">
+            Phone Number*<input
+              type="phone"
+              name="phone"
+              placeholder="123-123-2345"
+              pattern="[0-9-]"
+              required
+          /></label>
+          <label id="business">
+            Business/Organization Name*<input
+              type="text"
+              name="business"
+              pattern="[0-9-]"
+              required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Membership Level</legend>
+          <div>Select Membership level</div>
+          <label class="sbs"
+            ><input
+              type="radio"
+              name="non-profit"
+              value="non-profit"
+            />Non-profit Membership</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="bronze" value="bronze" />Bronze
+            Membership</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="silver" value="silver" />Silver
+            Membership</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="gold" value="gold" />Gold
+            Membership</label
+          >
+        </fieldset>
 
-            </fieldset>
-
-            <input type="submit" value="Send My Contact" class="submitBtn">
-
-        </form>
-       
+        <input type="submit" value="Become a Member Today!" class="submitBtn" />
+      </form>
     </main>
 
     <footer>
-        <span id="year"></span>
-        <p></p>
-        <span id="last_modified"></span>
+      <span id="year"></span>
+      <p></p>
+      <span id="last_modified"></span>
     </footer>
-    
+
     <script src="scripts/getDates.js"></script>
     <script src="./scripts/hamburger.js"></script>
     <script src="./scripts/visitorCounter.js"></script>
-</body>
+  </body>
 </html>

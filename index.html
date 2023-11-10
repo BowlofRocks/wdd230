@@ -1,138 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paul Amago - WDD 230 - Web Frontend Development</title>
-    <meta name="author" content="Paul Amago">
-    <meta name="description" content="WDD 230 - Web Frontend Development">
-    <meta name="purpose" content="course assignment portal ">
-    <meta property="og:url" content="http://www.amagoportfolio.com">
-    <meta property="og:type" content="portfolio">
-    <meta property="og:image" content="https://www.facebook.com/photo/?fbid=603255331946270&set=a.603255325279604">
-    <meta property="og:title" content="Paul Amago's Portfolio">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="icon" href="./favicon.ico">
-</head>
+    <meta name="author" content="Paul Amago" />
+    <meta name="description" content="WDD 230 - Web Frontend Development" />
+    <meta name="purpose" content="course assignment portal " />
+    <meta property="og:url" content="http://www.amagoportfolio.com" />
+    <meta property="og:type" content="portfolio" />
+    <meta
+      property="og:image"
+      content="https://www.facebook.com/photo/?fbid=603255331946270&set=a.603255325279604"
+    />
+    <meta property="og:title" content="Paul Amago's Portfolio" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="icon" href="./favicon.ico" />
+  </head>
 
-<body class = "light-mode">
-    <div id="mode">
-        ☑️
-    </div>
+  <body class="light-mode">
+    <div id="mode">☑️</div>
     <header>
-        <h1 class="title"> PAUL AMAGO: PORTFOLIO</h1>
+      <h1 class="title">PAUL AMAGO: PORTFOLIO</h1>
     </header>
-        <Nav>
-            <button id="menu">☰</button>
-            <ul class="grid-container">
-                <li><a class="home" href="*">Home</a></li>
-                <li><a class="chamber" href="./chamber/discover.html">Chamber</a></li>
-                <li><a class="site-plan" href="./week01/chamber-site-plan.html">Site Plan</a></li> 
-                <li><a class="form" href="./form.html">Form</a></li> 
-            </ul>
-        </Nav>
- 
+    <nav>
+      <button id="menu">☰</button>
+      <ul class="grid-container">
+        <li><a class="home" href="*">Home</a></li>
+        <li><a class="chamber" href="./chamber/discover.html">Chamber</a></li>
+        <li>
+          <a class="site-plan" href="./week01/chamber-site-plan.html"
+            >Site Plan</a
+          >
+        </li>
+        <li><a class="form" href="./form.html">Form</a></li>
+      </ul>
+    </nav>
+
     <main>
-        <div class="hero">
-            <h1> Snowflake AZ Temple</h1>
-            <picture>
-                <source srcset="images/small.webp" media="(max-width: 400px)" >
-                <source srcset="images/medium.webp" media="(max-width: 960px)" >
-                <img src="images/snowflake-temple.webp" alt="table setting" loading="lazy" width="1500" height="750">
-            </picture>
-        </div>
+      <div class="hero">
+        <h1>Snowflake AZ Temple</h1>
+        <picture>
+          <source srcset="images/small.webp" media="(max-width: 400px)" />
+          <source srcset="images/medium.webp" media="(max-width: 960px)" />
+          <img
+            src="images/snowflake-temple.webp"
+            alt="table setting"
+            loading="lazy"
+            width="1500"
+            height="750"
+          />
+        </picture>
+      </div>
 
-        <h2 class="subtext">WDD 230: Web Frontend Development</h2>
+      <h2 class="subtext">WDD 230: Web Frontend Development</h2>
 
-        <section class="about_card">
-            <img src="images/profile_pic.webp" alt="My Beutiful Face" loading="lazy">
-            <h3 class="subtext">ABOUT ME:</h3>
-            <p class="text-color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo alias illo, obcaecati possimus tempora error facilis voluptate nihil, 
-                libero ducimus. Natus cumque nemo vero odit laboriosam! Dolorem, non libero.</p>
-        </section>
+      <section class="about_card">
+        <img
+          src="images/profile_pic.webp"
+          alt="My Beutiful Face"
+          loading="lazy"
+        />
+        <h3 class="subtext">ABOUT ME:</h3>
+        <p class="text-color">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo
+          alias illo, obcaecati possimus tempora error facilis voluptate nihil,
+          libero ducimus. Natus cumque nemo vero odit laboriosam! Dolorem, non
+          libero.
+        </p>
+      </section>
 
-        <section class="information-card">
-            <h3 class="text-color">Information</h3>
-            <p class="text-color"> Number of visits: <span class="text-color" id="number-of-visits"> </span></p>
-        </section>
+      <section class="information-card">
+        <h3 class="text-color">Information</h3>
+        <p class="text-color">
+          Number of visits:
+          <span class="text-color" id="number-of-visits"> </span>
+        </p>
+      </section>
 
-        <h2 class="subtext">Projects:</h2>
+      <h2 class="subtext">Projects:</h2>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 1</h3>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 1</h3>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 2</h3>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 2</h3>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 3</h3>
-            <p class="text-color" id="bom">Book of Mormon - Top 10:</p>
-            <a href="./week02/bom.html"><img alt="Book Of Mormon: top-10" loading="lazy" src="./images/bom-top-10.webp"></a>
-            <p class="text-color">Web Design Principles</p>
-            <a href="./week02/design.html"><img alt="Design Principles" loading="lazy" src="./images/web-design-principles.webp"></a>
-            <p class="text-color">Hamburger Website</p>
-            <a href="week02/hamburger.html"><img alt="Hamburger Website" loading="lazy" src="./images/hamburger.webp"></a>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 3</h3>
+        <p class="text-color" id="bom">Book of Mormon - Top 10:</p>
+        <a href="./week02/bom.html"
+          ><img
+            alt="Book Of Mormon: top-10"
+            loading="lazy"
+            src="./images/bom-top-10.webp"
+        /></a>
+        <p class="text-color">Web Design Principles</p>
+        <a href="./week02/design.html"
+          ><img
+            alt="Design Principles"
+            loading="lazy"
+            src="./images/web-design-principles.webp"
+        /></a>
+        <p class="text-color">Hamburger Website</p>
+        <a href="week02/hamburger.html"
+          ><img
+            alt="Hamburger Website"
+            loading="lazy"
+            src="./images/hamburger.webp"
+        /></a>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 4</h3>
-            <a class="text-color" href="./week02/bom.html">Webp</a>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 4</h3>
+        <a class="text-color" href="./week02/bom.html">Webp</a>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 5</h3>
-            <a class="text-color" href="./week03/lazyload.html">lazyload</a>
-            <a class="text-color" href="./week03/responsive-images.html">responsive images</a>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 5</h3>
+        <a class="text-color" href="./week03/lazyload.html">lazyload</a>
+        <a class="text-color" href="./week03/responsive-images.html"
+          >responsive images</a
+        >
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 6</h3>
-            <a class="text-color" href="https://codepen.io/BowlofRocks/pen/GRzgzXX">Pseudo Classes</a>
-            <a class="text-color" href="./week04/tablebuild.html">HTML Tables for Data Presentation</a>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 6</h3>
+        <a class="text-color" href="https://codepen.io/BowlofRocks/pen/GRzgzXX"
+          >Pseudo Classes</a
+        >
+        <a class="text-color" href="./week04/tablebuild.html"
+          >HTML Tables for Data Presentation</a
+        >
+      </section>
 
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 7</h3>
+        <a class="text-color" href="https://codepen.io/BowlofRocks/pen/zYewbeR"
+          >Pseudo Elements</a
+        >
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 7</h3>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 8</h3>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 8</h3>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 9</h3>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 9</h3>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 10</h3>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 10</h3>
-        </section>
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 11</h3>
+      </section>
 
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 11</h3>
-        </section>
-
-        <section class="card">
-            <h3 class="text-color">WDD 230 Week 12</h3>
-        </section>
-
-        
-
+      <section class="card">
+        <h3 class="text-color">WDD 230 Week 12</h3>
+      </section>
     </main>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21059.453032610985!2d-94.6056185177213!3d48.71634361401541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b944a23ce76ddb%3A0x1f9f285bf23f91d1!2sBaudette%2C%20MN%2056623!5e0!3m2!1sen!2sus!4v1697638578722!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21059.453032610985!2d-94.6056185177213!3d48.71634361401541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b944a23ce76ddb%3A0x1f9f285bf23f91d1!2sBaudette%2C%20MN%2056623!5e0!3m2!1sen!2sus!4v1697638578722!5m2!1sen!2sus"
+      width="800"
+      height="600"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
     <footer>
-        <span class="text-color" id="year"></span>
-        <p></p>
-        <span class="text-color" id="last_modified"></span>
+      <span class="text-color" id="year"></span>
+      <p></p>
+      <span class="text-color" id="last_modified"></span>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="./scripts/darkMode.js"></script>
     <script src="./scripts/hamburger.js"></script>
     <script src="./scripts/visitorCounter.js"></script>
-</body>
+  </body>
 </html>
