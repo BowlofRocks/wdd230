@@ -1,3 +1,29 @@
+const currentDate = new Date();
+
+const daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+const monthsOfYear = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
 function populateYear() {
   const currentDate = new Date();
   const fullYear = currentDate.getFullYear();
@@ -16,6 +42,17 @@ function lastModified() {
   let lastModified = document.getElementById("last_modified");
 
   lastModified.innerHTML = recentModification;
+}
+
+function timeStamp(event) {
+  const dayOfWeek = daysOfWeek[currentDate.getDay()];
+  const month = monthsOfYear[currentDate.getMonth()];
+  const day = currentDate.getDate();
+  const year = currentDate.getFullYear();
+
+  const formattedDate = `Today is ${dayOfWeek}, ${month} ${day}, ${year}`;
+
+  console.log(formattedDate);
 }
 
 populateYear();
