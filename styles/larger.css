@@ -21,7 +21,6 @@
   }
 
   nav a {
-    display: block;
     text-align: center;
   }
 
@@ -29,6 +28,8 @@
     color: #000000;
     font-family: "Poppins", sans-serif;
     text-align: center;
+    padding: 0.5rem;
+    margin-right: 7rem;
   }
 
   body {
@@ -67,37 +68,33 @@
 
   /* classes */
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  .flex-container {
+    display: flex;
+    flex-direction: row;
   }
 
   .home {
     color: #d8e0ec;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    grid-column: 1/2;
   }
 
   .chamber {
     color: #d8e0ec;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    grid-column: 2/3;
   }
 
   .site-plan {
     color: #d8e0ec;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    grid-column: 3/4;
   }
 
   .form {
     color: #d8e0ec;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    grid-column: 4/5;
   }
 
   .subtext {
@@ -133,7 +130,7 @@
     color: aliceblue;
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
-    top: 50%;
+    top: 110%;
     left: 10px;
   }
 

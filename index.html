@@ -24,10 +24,24 @@
     <div id="mode">☑️</div>
     <header>
       <h1 class="title">PAUL AMAGO: PORTFOLIO</h1>
+      <section class="about_card">
+        <img
+          src="images/profile_pic.webp"
+          alt="My Beutiful Face"
+          loading="lazy"
+        />
+        <h3 class="subtext">ABOUT ME:</h3>
+        <p class="text-color">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo
+          alias illo, obcaecati possimus tempora error facilis voluptate nihil,
+          libero ducimus. Natus cumque nemo vero odit laboriosam! Dolorem, non
+          libero.
+        </p>
+      </section>
     </header>
     <nav>
       <button id="menu">☰</button>
-      <ul class="grid-container">
+      <ul class="flex-container">
         <li><a class="home" href="*">Home</a></li>
         <li><a class="chamber" href="./chamber/discover.html">Chamber</a></li>
         <li>
@@ -57,21 +71,6 @@
 
       <h2 class="subtext">WDD 230: Web Frontend Development</h2>
 
-      <section class="about_card">
-        <img
-          src="images/profile_pic.webp"
-          alt="My Beutiful Face"
-          loading="lazy"
-        />
-        <h3 class="subtext">ABOUT ME:</h3>
-        <p class="text-color">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo
-          alias illo, obcaecati possimus tempora error facilis voluptate nihil,
-          libero ducimus. Natus cumque nemo vero odit laboriosam! Dolorem, non
-          libero.
-        </p>
-      </section>
-
       <section class="information-card">
         <h3 class="text-color">Information</h3>
         <p class="text-color">
@@ -84,6 +83,7 @@
         <div id="cards"></div>
       </section>
     </main>
+
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21059.453032610985!2d-94.6056185177213!3d48.71634361401541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b944a23ce76ddb%3A0x1f9f285bf23f91d1!2sBaudette%2C%20MN%2056623!5e0!3m2!1sen!2sus!4v1697638578722!5m2!1sen!2sus"
       width="800"
@@ -95,7 +95,7 @@
     ></iframe>
     <footer>
       <span class="text-color" id="year"></span>
-      <p></p>
+
       <span class="text-color" id="last_modified"></span>
     </footer>
     <script src="scripts/getDates.js"></script>
