@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@100&display=swap");
 
+:root {
+  --secondary-color: #ffffff;
+  --primary-color: #000000;
+  --accent1-color: #f0f8ff;
+}
 img {
   display: block;
   margin-left: auto;
@@ -22,21 +27,21 @@ nav a {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #000000;
+  color: var(--primary-color);
 }
 
 nav li {
-  color: #000000;
+  color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 body {
-  background-color: white;
+  background-color: var(--primary-color);
 }
 
 header h1 {
-  color: #000000;
+  color: var(--primary-color);
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -44,7 +49,7 @@ header h1 {
 
 section h3,
 p {
-  color: #000000;
+  color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
@@ -54,26 +59,26 @@ section img {
 }
 
 footer span {
-  color: #000000;
+  color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 main h2 {
-  color: #000000;
+  color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #d8e0ec;
+  border: 1px solid var(--accent1-color);
   border-radius: 10px;
   padding: 0.5rem 2%;
 }
 
 fieldset label {
-  color: aliceblue;
+  color: var(--accent1-color);
   font-family: "Poppins", sans-serif;
 }
 
@@ -92,7 +97,7 @@ form label input:required:valid {
 
 form input.submitBtn {
   border: none;
-  background-color: #d8e0ec;
+  background-color: var(--accent1-color);
   color: #000000;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -103,43 +108,43 @@ form input.submitBtn {
 
 /* classes */
 .home {
-  color: #d8e0ec;
+  color: var(--accent1-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 .chamber {
-  color: #d8e0ec;
+  color: var(--accent1-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 .site-plan {
-  color: #d8e0ec;
+  color: var(--accent1-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 .form {
-  color: #d8e0ec;
+  color: var(--accent1-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 .subtext {
-  color: #d8e0ec;
+  color: var(--accent1-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 .text-color {
-  color: #d8e0ec;
+  color: var(--accent1-color);
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 .title {
-  color: #d8e0ec;
+  color: var(--accent1-color);
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -165,7 +170,7 @@ form input.submitBtn {
 
 .light-mode h2,
 h3 {
-  color: #d8e0ec;
+  color: var(--accent1-color);
 }
 
 .hero img {
@@ -175,7 +180,7 @@ h3 {
 
 .hero h1 {
   position: absolute;
-  color: aliceblue;
+  color: var(--accent1-color);
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
   top: 65%;
