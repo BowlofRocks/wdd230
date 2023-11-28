@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@100&display=swap");
-
 @media only screen and (min-width: 400px) {
   :root {
     --primpary-color: #ffffff;
@@ -138,7 +136,7 @@
   /* grid */
   #grid-container {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   #weather-card {

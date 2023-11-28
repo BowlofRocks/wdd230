@@ -20,6 +20,10 @@ main {
   padding-bottom: 1rem;
 }
 
+nav {
+  border-bottom: 1px solid var(--accent1-color);
+}
+
 nav ul {
   padding: 0;
 }
@@ -193,4 +197,9 @@ td {
 
 tbody tr:nth-child(even) {
   background-color: var(--zebra);
+}
+
+.title {
+  margin: 0;
+  padding: 1rem;
 }
