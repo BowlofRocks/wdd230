@@ -3,7 +3,7 @@ const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
 
 const url =
-  "https://api.openweathermap.org/data/2.5/weather?lat=49.75048745425214&lon=6.638804777950605&units=imperial&appid=4ad8a947df6bc0535bf9d31e780a8afc";
+  "https://api.openweathermap.org/data/2.5/weather?lat=43.82100233468894&lon=-111.78801208868545&units=imperial&appid=4ad8a947df6bc0535bf9d31e780a8afc";
 
 async function apiFetch() {
   try {

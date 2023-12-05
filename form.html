@@ -43,14 +43,25 @@
 
     <main>
       <h1 class="title">Contact Me!</h1>
-      <form method="get" action="/thanks.html">
+      <div id="formmessage"></div>
+      <form method="get" action="/record.html">
         <fieldset>
           <legend class="subtext">Please Put In Your Info</legend>
           <label id="uname">
             Username*<input type="text" name="username" required
           /></label>
-          <label id="pword">
+          <label>
             Password* [8 characters max]<input
+              id="pword"
+              type="password"
+              name="password"
+              pattern="[a-zA-Z0-9]{8}"
+              maxlength="8"
+              required
+          /></label>
+          <label>
+            Confirm Password* [8 characters max]<input
+              id="pword2"
               type="password"
               name="password"
               pattern="[a-zA-Z0-9]{8}"
@@ -84,5 +95,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="./scripts/darkMode.js"></script>
     <script src="./scripts/hamburger.js"></script>
+    <script src="./scripts/form.js"></script>
   </body>
 </html>

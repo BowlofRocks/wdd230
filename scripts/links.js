@@ -7,4 +7,8 @@ async function getLinks() {
   console.log(data);
 }
 
+function displayLinks(weeks){
+  weeks.foreach(week) => console.log(*)
+}
+
 getLinks();
