@@ -1,45 +1,26 @@
 {
     "members": [
       {
-        "member": "Gold",
-        "": [
-          {
-            "name":"Markus Bradford"
-          }
+        "gold": "Gold",
+        "names": [
+          {"name":"Markus Bradford"},
+          {"name":"Coral Cline"},
+            {"name":"Jed Russo"},
+            {"name":"Gabrielle Lucero"},
+            {"name":"Keaton Jennings"},
+            {"name":"Summer Mcdaniel"}
         ]
       },
       {
-        "member": "silver",
-        "": [
-          {
-            "name":"Coral Cline"
-          }
-        ]
-    },
-      {
-        "member": "silver",
-        "": [
-          {
-            "name":"Jed Russo"
-          }
-        ]
-    },
-      {
-        "member": "Gold",
-        "": [
-          {
-            "name":"Gabrielle Lucero"
-          }
-        ]
-    },
-      {
-        "member": "Gold",
-        "": [
-          {
-            "name":"Keaton Jennings"
-          }
-        ]
+        "silver": "silver",
+      "names": [
+        {"name":"Markus Bradford"},
+        {"name":"Coral Cline"},
+          {"name":"Jed Russo"},
+          {"name":"Gabrielle Lucero"},
+          {"name":"Keaton Jennings"},
+          {"name":"Summer Mcdaniel"}
+      ]
     }
-]
-
+    ]
 }

@@ -1,5 +1,5 @@
 const spotlightsURL =
-  "https://raw.githubusercontent.com/BowlofRocks/wdd230/main/chamber/data/spotlights.json";
+  "https://bowlofrocks.github.io/wdd230/chamber/data/spotlights.json";
 async function getMembers() {
   const response = await fetch(spotlightsURL);
   try {
