@@ -1,0 +1,74 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week01/holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"week01/media-query.html",
+            "title":"mQueries"
+          }
+        ]
+      },
+      {
+      "week": "Week 2",
+        "links": [
+          {
+            "url":"week02/bom.html",
+            "title":"Book of Mormon - Top 10:"
+          },
+          {
+            "url":"week02/design.html",
+            "title":"Web Design Principles"
+          },
+          {
+            "url":"week02/hamburger.html",
+            "title":"Hamburger Website"
+          }
+        ]
+    },
+      {
+      "week": "Week 3",
+        "links": [
+          {
+            "url":"week03/lazyload.html",
+            "title":"Learning Lazy Loading"
+          },
+          {
+            "url":"week03/responsive-images.html",
+            "title":"Responsive Images"
+          }
+        ]
+    },
+      {
+      "week": "Week 4",
+        "links": [
+          {
+            "url":"week04/tablebuild.html",
+            "title":"Understanding Tables"
+          },
+          {
+            "url":"https://codepen.io/BowlofRocks/pen/zYewbeR",
+            "title":"Pseudo Elements"
+          }
+        ]
+    },
+      {
+      "week": "Week 5",
+        "links": [
+          {
+            "url":"week5/prophets.html",
+            "title":"Prophets Activity"
+          },
+          {
+            "url":"week5/weather.html",
+            "title":"Weather Api Activity"
+          }
+        ]
+    }
+]
+
+}

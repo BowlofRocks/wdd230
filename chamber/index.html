@@ -60,17 +60,16 @@
         <section id="weather-card">
           <h1>Weather</h1>
           <h2>Today's Weather:</h2>
-          <h3>Sunny</h3>
+          <span id="current-temp"></span>
+          <figure>
+            <img id="weather-icon" src="" alt="" />
+            <figcaption></figcaption>
+          </figure>
         </section>
 
         <section id="spotlights-card">
           <h1>Spotlights & Advertisements</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-            tempora perspiciatis pariatur voluptatem fugiat molestiae veniam
-            odio voluptas excepturi, nam recusandae deserunt vitae voluptatum
-            adipisci optio aliquam dolores repellat. A.
-          </p>
+          <div id="cards"></div>
         </section>
 
         <section id="messages-card">
@@ -188,5 +187,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="./scripts/hamburger.js"></script>
     <script src="./scripts/visitorCounter.js"></script>
+    <script src="./scripts/weather.js"></script>
   </body>
 </html>

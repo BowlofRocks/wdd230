@@ -122,7 +122,7 @@
 
   #join {
     position: absolute;
-    top: 90%;
+    top: 110%;
     left: 27rem;
     padding: 24px 60px;
     opacity: 0.7;
@@ -144,45 +144,54 @@
     grid-row: 1;
     height: 98.3%;
     margin-bottom: 100px;
+    margin-left: 110px;
   }
 
-  #spotlghts-card {
+  #spotlights-card {
     grid-column: 1;
     grid-row: 2;
+    margin-left: 110px;
   }
 
   #messages-card {
     grid-column: 1;
     grid-row: 3;
+    margin-left: 110px;
   }
 
   #fireworks {
     grid-column: 2;
     grid-row: 1;
+    margin-left: 90px;
   }
 
   #equestrian-girl {
     grid-column: 2;
     grid-row: 2;
+    margin-left: 90px;
   }
 
   #old-car {
     grid-column: 2;
     grid-row: 3;
+    margin-left: 90px;
   }
 
   #silly-guy {
     grid-column: 2;
     grid-row: 4;
+    margin-left: 90px;
   }
 
   #country-fair {
     grid-column: 2;
     grid-row: 5;
+    margin-left: 90px;
   }
 
   #border-bandstand {
     grid-column: 2;
     grid-row: 6;
+    margin-left: 90px;
   }
 }
