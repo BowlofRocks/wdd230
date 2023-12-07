@@ -1,71 +1,42 @@
 {
-    "weeks": [
+    "members": [
       {
-        "week": "Week 1",
-        "links": [
+        "member": "Gold",
+        "": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
-          },
-          {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "name":"Markus Bradford"
           }
         ]
       },
       {
-      "week": "Week 2",
-        "links": [
+        "member": "silver",
+        "": [
           {
-            "url":"week02/bom.html",
-            "title":"Book of Mormon - Top 10:"
-          },
-          {
-            "url":"week02/design.html",
-            "title":"Web Design Principles"
-          },
-          {
-            "url":"week02/hamburger.html",
-            "title":"Hamburger Website"
+            "name":"Coral Cline"
           }
         ]
     },
       {
-      "week": "Week 3",
-        "links": [
+        "member": "silver",
+        "": [
           {
-            "url":"week03/lazyload.html",
-            "title":"Learning Lazy Loading"
-          },
-          {
-            "url":"week03/responsive-images.html",
-            "title":"Responsive Images"
+            "name":"Jed Russo"
           }
         ]
     },
       {
-      "week": "Week 4",
-        "links": [
+        "member": "Gold",
+        "": [
           {
-            "url":"week04/tablebuild.html",
-            "title":"Understanding Tables"
-          },
-          {
-            "url":"https://codepen.io/BowlofRocks/pen/zYewbeR",
-            "title":"Pseudo Elements"
+            "name":"Gabrielle Lucero"
           }
         ]
     },
       {
-      "week": "Week 5",
-        "links": [
+        "member": "Gold",
+        "": [
           {
-            "url":"week5/prophets.html",
-            "title":"Prophets Activity"
-          },
-          {
-            "url":"week5/weather.html",
-            "title":"Weather Api Activity"
+            "name":"Keaton Jennings"
           }
         ]
     }
