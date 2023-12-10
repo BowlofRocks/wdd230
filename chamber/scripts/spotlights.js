@@ -1,8 +1,6 @@
 const spotlightsURL =
   "https://bowlofrocks.github.io/wdd230/chamber/data/spotlights.json";
 
-const firstCard = document.querySelector("#first-card");
-
 async function getMembers() {
   const response = await fetch(spotlightsURL);
   try {
@@ -20,23 +18,42 @@ async function getMembers() {
 
 function displayMembers(data) {
   console.log(data);
+  const firstCard = document.querySelector("#first-card");
+  firstCard.innerHTML = "";
+  const secondCard = document.querySelector("#second-card");
+  secondCard.innerHTML = "";
+  const thirdCard = document.querySelector("#third-card");
+  thirdCard.innerHTML = "";
 
   const goldNamesArr = data.members[0].names;
   const goldTitle = data.members[0].gold;
+  const silverNamesArr = data.members[1].names;
+  const silverTitle = data.members[1].silver;
+
   const goldNameOne =
     data.members[0].names[Math.floor(Math.random() * goldNamesArr.length)];
-
-  console.log(goldNameOne);
 
   const goldNameTwo =
     data.members[0].names[Math.floor(Math.random() * goldNamesArr.length)];
 
-  let p = document.createElement("p");
-  p.textContent = `${goldTitle} : ${goldNameOne}`;
+  const silverNameOne =
+    data.members[1].names[Math.floor(Math.random() * silverNamesArr.length)];
 
-  console.log(p);
+  console.log(silverNameOne);
+  let goldMemOne = document.createElement("p");
+  let goldMemTwo = document.createElement("p");
+  let silverMemOne = document.createElement("p");
+  goldMemOne.textContent = `${goldTitle} : ${goldNameOne}`;
+  goldMemTwo.textContent = `${goldTitle} : ${goldNameTwo}`;
+  silverMemOne.textContent = `${silverTitle} : ${silverNameOne}`;
 
-  firstCard.appendChild(p);
+  console.log(silverMemOne);
+
+  //   console.log(goldMemOne);
+
+  firstCard.appendChild(goldMemOne);
+  secondCard.appendChild(goldMemTwo);
+  thirdCard.appendChild(silverMemOne);
 }
 
 getMembers();
