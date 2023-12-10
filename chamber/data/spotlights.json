@@ -3,23 +3,23 @@
       {
         "gold": "Gold",
         "names": [
-          {"name":"Markus Bradford"},
-          {"name":"Coral Cline"},
-            {"name":"Jed Russo"},
-            {"name":"Gabrielle Lucero"},
-            {"name":"Keaton Jennings"},
-            {"name":"Summer Mcdaniel"}
+          "Markus Bradford",
+          "Coral Cline",
+          "Jed Russo",
+          "Gabrielle Lucero",
+          "Keaton Jennings",
+          "Summer Mcdaniel"
         ]
       },
       {
         "silver": "silver",
       "names": [
-        {"name":"Markus Bradford"},
-        {"name":"Coral Cline"},
-          {"name":"Jed Russo"},
-          {"name":"Gabrielle Lucero"},
-          {"name":"Keaton Jennings"},
-          {"name":"Summer Mcdaniel"}
+        "Markus Bradford",
+        "Coral Cline",
+        "Jed Russo",
+        "Gabrielle Lucero",
+        "Keaton Jennings",
+        "Summer Mcdaniel"
       ]
     }
     ]

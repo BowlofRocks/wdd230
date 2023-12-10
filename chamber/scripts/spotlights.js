@@ -1,6 +1,8 @@
 const spotlightsURL =
   "https://bowlofrocks.github.io/wdd230/chamber/data/spotlights.json";
 
+const firstCard = document.querySelector("#first-card");
+
 async function getMembers() {
   const response = await fetch(spotlightsURL);
   try {
@@ -18,6 +20,23 @@ async function getMembers() {
 
 function displayMembers(data) {
   console.log(data);
+
+  const goldNamesArr = data.members[0].names;
+  const goldTitle = data.members[0].gold;
+  const goldNameOne =
+    data.members[0].names[Math.floor(Math.random() * goldNamesArr.length)];
+
+  console.log(goldNameOne);
+
+  const goldNameTwo =
+    data.members[0].names[Math.floor(Math.random() * goldNamesArr.length)];
+
+  let p = document.createElement("p");
+  p.textContent = `${goldTitle} : ${goldNameOne}`;
+
+  console.log(p);
+
+  firstCard.appendChild(p);
 }
 
 getMembers();
