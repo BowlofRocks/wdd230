@@ -25,6 +25,8 @@ function displayMembers(data) {
   const thirdCard = document.querySelector("#third-card");
   thirdCard.innerHTML = "";
 
+  console.log(thirdCard);
+
   const goldNamesArr = data.members[0].names;
   const goldTitle = data.members[0].gold;
   const silverNamesArr = data.members[1].names;
@@ -46,10 +48,6 @@ function displayMembers(data) {
   goldMemOne.textContent = `${goldTitle} : ${goldNameOne}`;
   goldMemTwo.textContent = `${goldTitle} : ${goldNameTwo}`;
   silverMemOne.textContent = `${silverTitle} : ${silverNameOne}`;
-
-  console.log(silverMemOne);
-
-  //   console.log(goldMemOne);
 
   firstCard.appendChild(goldMemOne);
   secondCard.appendChild(goldMemTwo);
